@@ -1,0 +1,18 @@
+for i = 1 to n in steps of 1 do
+ j = i
+ while a[i ][i ] == 0 & j  n do
+ Interchange i and (j + 1)th row of matrix a
+ j = j + 1
+ end while
+ for k = i to n + 1 in steps of 1 do
+ a[i ][k] = a[i ][k]=a[i ][i ]
+ end for
+ for k = 1 to n in steps of 1 do
+ if k 6= i then
+ f = a[k][i ]=a[i ][i ]
+ for p = i to n + 1 in steps of 1 do
+ a[k][p] = a[k][p] - f * a[i ][p]
+ end for
+ end if
+ end for
+ end for
